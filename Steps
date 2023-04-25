@@ -1,0 +1,4 @@
+$ pyp2spec redislite
+$ rpmbuild -ba python-redislite.spec
+$ cd rpmbuild/RPMS/noarch
+$ sudo dnf install python-redislite-6.2.805324.tar.gz
